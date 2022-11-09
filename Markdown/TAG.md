@@ -1,6 +1,6 @@
-<h1>Markdown-Tag</h1>
+<h1>Markdown-TAG</h1>
 
-<h2>Header-Tag</h2>
+<h2>Header-TAG</h2>
 
 ```html
 <!-- <h1> ~ <h6>까지의 제목 표현이 가능함 -->
