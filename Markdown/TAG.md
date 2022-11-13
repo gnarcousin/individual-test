@@ -212,3 +212,14 @@ ex) [Google](https://www.google.com/, "google")
 > 이메일 링크: nifl0331@gmail.com
 
 <h2>이미지 태그</h2>
+
+```html
+![대체텍스트](링크 "링크 설명")
+![나르](https://user-images.githubusercontent.com/107753319/201525667-e2dc4b14-53c5-4dfd-abb8-759bb8742337.jpg "나르")
+
+
+<!--사이즈 조정 기능이 없어 사이즈 조절을 위해서는 html 문법을 사용함-->
+<img src="이미지 주소" width="가로" height="세로" title="20px" alt="링크 설명"></img>
+<img src="https://user-images.githubusercontent.com/107753319/201525667-e2dc4b14-53c5-4dfd-abb8-759bb8742337.jpg" width = "60%" height = "30%" title="이미지 제목" alt=
+```
+
