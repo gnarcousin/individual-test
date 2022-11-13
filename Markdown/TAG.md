@@ -155,6 +155,60 @@ print "python 문구입니다"
 >
 > <pre>
 > <code>
-> print "python" 문구입니다"
+> print "python 문구입니다"
 > </code>
 > </pre>
+
+<h2>Horizontal-Rule-TAG</h2>
+
+```html
+<!--수평선을 만드는 기호를 세 개 이상 입력해 사용함-->
+* * *
+(Asterisks)
+- - -
+(Hyphens)
+_ _ _
+(Underscores)
+```
+
+> **적용 결과**
+>
+> * * *
+> (Asterisks)
+> - - -
+> (Hyphens)
+> _ _ _
+> (Underscores)
+
+<h2>Links-TAG</h2>
+
+<h3>외부 링크</h3>
+
+```html
+<!--
+사용 방법
+-->
+[보여질 문구](link)
+ex) [Google](https://www.google.com/, "google")
+```
+
+> **적용 결과**
+>
+> [보여질 문구](link)
+> ex) [Google](https://www.google.com/, "google")
+
+<h3>자동 연결</h3>
+
+```html
+<!--일반적인 URL, 또는 이메일 주소인 경우 알아서 적절한 형식으로 링크를 형성함-->
+
+외부 링크: http://github.com/
+이메일 링크: nifl0331@gmail.com
+```
+
+> **적용 결과**
+>
+> 외부 링크: http://github.com/
+> 이메일 링크: nifl0331@gmail.com
+
+<h2>이미지 태그</h2>
