@@ -148,7 +148,7 @@ print "python 문구입니다"
 > ```
 
 ```html
-<pre><code></code></pre>를 이용하는 방법
+<pre><code> </code></pre>를 이용하는 방법
 ```
 
 > **적용 결과**
