@@ -206,7 +206,7 @@ ex) [Google](https://www.google.com/, "google")
 이메일 링크: nifl0331@gmail.com
 ```
 
-> **적용 결과**
+> **적용 결과**  
 >
 > 외부 링크: http://github.com/
 > 이메일 링크: nifl0331@gmail.com
@@ -217,9 +217,60 @@ ex) [Google](https://www.google.com/, "google")
 ![대체텍스트](링크 "링크 설명")
 ![나르](https://user-images.githubusercontent.com/107753319/201525667-e2dc4b14-53c5-4dfd-abb8-759bb8742337.jpg "나르")
 
-
 <!--사이즈 조정 기능이 없어 사이즈 조절을 위해서는 html 문법을 사용함-->
 <img src="이미지 주소" width="가로" height="세로" title="20px" alt="링크 설명"></img>
 <img src="https://user-images.githubusercontent.com/107753319/201525667-e2dc4b14-53c5-4dfd-abb8-759bb8742337.jpg" width = "60%" height = "30%" title="이미지 제목" alt=대체 문장">
 ```
 
+> **적용 결과**
+> 
+> ![나르](https://user-images.githubusercontent.com/107753319/201525667-e2dc4b14-53c5-4dfd-abb8-759bb8742337.jpg "나르")
+> <img src="https://user-images.githubusercontent.com/107753319/201525667-e2dc4b14-53c5-4dfd-abb8-759bb8742337.jpg" width = "60%" height = "30%" title="우리집-고양이" alt="나르">
+
+<h2>Blockquote-TAG</h2>
+```html
+<!-- 화살표의 개수에 따라 인용문이 중첩됨 -->
+> 내용1
+>> 내용2
+>>> 내용3
+```
+
+>**적용 결과**
+>
+> 내용1
+>> 내용2
+>>> 내용3
+
+```html
+<!-- 줄바꿈을 하기 위해서는 문장의 끝에 띄어쓰기 2번을 해야 함 -->
+```
+
+> **적용 결과**
+>
+> 줄바꿈을 안하면-
+> 이렇게 나오지만 줄바꿈을 하면-  
+> 이렇게 출력됨
+
+<h2>Table-TAG</h2>
+
+```html
+제목1|제목2|제목3
+---|---|---
+내용1|내용2|내용3
+
+<!-- 정렬이 필요할 때 -->
+
+|왼쪽 정렬|가운데 정렬|오른쪽 정렬|
+|:---|:---:|---:|
+|내용 1|내용 2|내용 3|
+```
+
+> **적용 결과**
+>
+> 제목1|제목2|제목3
+> ---|---|---
+> 내용1|내용2|내용3
+>
+> |왼쪽 정렬|가운데 정렬|오른쪽 정렬|
+> |:---|:---:|---:|
+> |내용 1|내용 2|내용 3|
