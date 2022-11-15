@@ -48,3 +48,4 @@ $ git merge 원격저장소별칭/브랜치명
 ```
 
 > - `fetch`로 내려받은 커밋들을 **병합**해줌
+> - `fetch`로 내려받은 `remote branch`들도 병합
