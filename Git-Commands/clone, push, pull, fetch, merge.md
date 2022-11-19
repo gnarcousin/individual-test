@@ -34,7 +34,7 @@ $ git pull
 
 <h2> fetch </h2>
 
-```git
+```git 
 $ git fetch 원격저장소URL
 ```
 
