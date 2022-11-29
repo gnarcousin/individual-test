@@ -1,4 +1,4 @@
-<h2> Git-Commands </h2>
+<h1> Git-Commands </h1>
 
 - [**add, commit, log, show**](https://github.com/gnarcousin/individual-test/blob/main/Git-Commands/add%2C%20commit%2C%20log%2C%20show.md)
 - [**branch, checkout, switch**](https://github.com/gnarcousin/individual-test/blob/main/Git-Commands/branch%2C%20checkout%2C%20switch.md)
