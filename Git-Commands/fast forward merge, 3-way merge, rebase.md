@@ -14,7 +14,9 @@ $ git merge 브랜치명
 <h2>3-way merge</h2>
 
 ```bash
-$ git merge 브랜치명 -edit
+$ git merge 브랜치명 -edit #커밋 메시지 작성
+
+$ git merge 브랜치명 --no --ff #브랜치가 f-f 관계가 아니어도 병합
 ```
 
 > - `3-way merge` : 주로 협업 시 사용하는 복잡한 병합 방법
